@@ -34,8 +34,16 @@ class App extends Component {
 }
 
 const mapStateToProps = (state) => {
-  debugger;
+  // debugger;
   return { items: state.items }
 }
+
+// const mapStateToProps = (state) => {
+//   return { orangePeel: state.items }
+// }
+
+// const mapStateToProps = (state) => {
+//   return { orangePeel: ['a', 'b', 'c'] };
+// };
 
 export default connect(mapStateToProps)(App);
